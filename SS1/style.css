@@ -1,0 +1,15 @@
+
+/* style dựa trên tên thẻ  */
+/* a {
+    text-decoration: none;
+} */
+
+/* style dựa trên id  */
+/* #rm-underline {
+    text-decoration: none;
+} */
+
+/* style dựa trên class */
+.rm-underline {
+    text-decoration: none
+}
