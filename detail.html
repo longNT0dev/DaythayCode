@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <nav></nav>
+
+        <div id="item-detail">
+
+        </div>
+
+
+        <footer></footer>
+    </div>
+
+
+
+    <script>
+        // Lấy ra được cái id trên đường dẫn 
+        // Từ id đó ta lại truy cập vào dữ liệu để lấy ra và render trên html 
+
+        // let params = window.location.search;
+        // const urlParams = new URLSearchParams(params);
+        // let id = urlParams.get("id");
+
+
+
+        // let data = JSON.parse(localStorage.data)
+        // let itemData = data.filter(e => e.id == id)
+
+        // let detailItem = document.getElementById("item-detail")
+        // detailItem.innerHTML = `
+        // <div>
+        //         <img src=${itemData[0].picture} alt="">
+        //         <h1>Mô tả sản phẩm: ${itemData[0].description}</h1>
+        //         <span>Giá : ${itemData[0].price}</span>
+        //         <span>Số lượng: ${itemData[0].quantity}</span>
+        // </div>
+        // `
+
+
+        // console.log(itemData)
+
+        setInterval(() => {
+            if(!localStorage.token) {
+                window.location.href = "example.html"
+            }
+        })
+
+    </script>
+</body>
+
+</html>
